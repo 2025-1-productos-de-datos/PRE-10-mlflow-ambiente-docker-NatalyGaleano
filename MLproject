@@ -1,10 +1,10 @@
 name: Proyecto de demostracion
 
+# docker_env:
+#     image:  nataly3105/mlflow:example
+#     build_context: .
 docker_env:
-    image:  jdvelasq/mlflow:example
-    build_context: .
-docker_env:
-    image:  jdvelasq/mlflow:example
+    image:  nataly3105/mlflow:example
     build_context: .
 
 entry_points:
